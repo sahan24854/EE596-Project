@@ -33,3 +33,5 @@ ef get_video_frames(video_path, frame_skip=5):
 ```
 Video signals sampled at high temporal frequencies (e.g., 60 Hz) exhibit extremely small frame-to-frame physical displacement. To rigorously test the robustness of the motion estimation engine, a temporal subsampling factor (frame_skip = 5) is introduced to simulate lower framerates and artificially induce larger motion vectors between the evaluated reference and target frames.
 
+![Alt text]()
+
